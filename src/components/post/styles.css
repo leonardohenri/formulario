@@ -1,0 +1,35 @@
+.containerform{
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.containerform input{
+    margin: 10px;
+    min-width: 95%;
+    height: 20px;
+    
+}
+.button{
+    margin: 0 auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color:white;
+    max-width: 95%;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: hsl(154, 59%, 51%);
+    margin-bottom: 10px;
+}
+.button p{
+    margin: 0 auto;
+}
+.containerform a{
+    color: red;
+}
+@media (min-width:320px) and (max-width:490px){
+    .containerform input{
+        height: 30px;
+    }
+}
