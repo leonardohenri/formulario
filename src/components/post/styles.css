@@ -1,35 +1,42 @@
-.containerform{
+.formulario{
     background: white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
-.containerform input{
+.formulario input{
     margin: 10px;
     min-width: 95%;
-    height: 20px;
+    height: 40px;
+    text-indent: 10px;
+      
     
 }
-.button{
-    margin: 0 auto;
+button{
+    margin-left: 10PX;
+    width: 95%;
     height: 30px;
-    display: flex;
-    align-items: center;
     color:white;
-    max-width: 95%;
     border-radius: 10px;
-    text-align: center;
-    cursor: pointer;
     background-color: hsl(154, 59%, 51%);
     margin-bottom: 10px;
+    text-align: center;
 }
-.button p{
-    margin: 0 auto;
+
+.teste{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
-.containerform a{
+.terms{
+    color:red;
+    cursor: pointer;
+}
+.error{
     color: red;
+    margin-left: 10px;
 }
-@media (min-width:320px) and (max-width:490px){
-    .containerform input{
+@media (min-width:320px) and (max-width:700px){
+    .formulario input{
         height: 30px;
     }
 }
